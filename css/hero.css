@@ -1,0 +1,33 @@
+.hero-btn {
+color: #fff;
+background: #4d5ae5;
+cursor: pointer;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+background: #404bbf;
+}
+.hero-text {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07143;
+text-align: center;
+color: #fff;
+letter-spacing: 0.02em;
+}
+.hero-title {
+background: #2e2f42;
+}
+/*
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
