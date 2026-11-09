@@ -1,43 +1,44 @@
 .post-title {
-font-family: "Roboto", sans-serif;
-font-weight: 700;
-font-size: 36px;
-text-align: center;
-color: #2e2f42;
-line-height: 1.11111;
-letter-spacing: 0.02em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #2e2f42;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
 }
 .team-wrapper {
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 0 15px;
-background: #f4f4fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  background: #f4f4fd;
 }
-.titl-name{
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
+.titl-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 .post {
-padding: 120px 0;
+  padding: 120px 0;
+  background: #f4f4fd;
 }
 
 .text-post {
-font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-text-align: center;
-color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
 }
 .people {
-   background-color: #ffffff; 
+  background-color: #ffffff;
 }
 /*
 .image-grid {
@@ -56,18 +57,18 @@ color: #434455;
 }
   */
 .image-container {
-display: grid;
-align-items: center;
-width: 100%;
-flex-wrap: wrap;
-justify-content: center;
-gap: 24px;
-margin: 0 auto; 
+  display: grid;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin: 0 auto;
 }
 
 .image-container img {
-   display: block;
-  width: calc((100%-72px)/4);
+  display: block;
+  width: calc((100%-72px) / 4);
   height: auto;
-  object-fit: cover; 
+  object-fit: cover;
 }

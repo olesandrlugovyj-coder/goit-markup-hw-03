@@ -1,84 +1,89 @@
-
 .logo {
-display: inline-flex;
-align-items: center;
-gap: 0;
-font-family: "Raleway", sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height: 1.33333;
-letter-spacing: 0.03em;
-background: #fff;
-text-transform: uppercase;
-color: #2e2f42;
-text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  gap: 0;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: 0.03em;
+  background: #fff;
+  text-transform: uppercase;
+  color: #2e2f42;
+  text-decoration: none;
 }
 
-.logo span{
-color: #4d5ae5;
+.logo span {
+  color: #4d5ae5;
 }
-.nav-list{
-display: flex;
-align-items: center;
-gap: 40px;
-margin-left: 76px;
-padding: auto;
-width: calc((100% - 32px)/3);
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 76px;
+  margin-right: auto;
 }
 
-.link{
-display: block;
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2e2f42;
-background: #fff;
-text-decoration: none;
-padding: 24px 0;
+.link {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background: #fff;
+  text-decoration: none;
+  padding: 24px 0;
 }
 
 .list {
-background: #fff;
-color:#2e2f42;
-list-style-type: none;
-text-decoration: none;
+  background: #fff;
+  color: #2e2f42;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .address-list {
-display: flex;
-align-items: center;
-justify-content: center;
-flex-wrap: wrap;
-gap: 40px;
+  display: flex;
+  text-align: right;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 24px 0;
+  gap: 40px;
 }
 
-
-
 .address-text {
-font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-background: #fff;
-text-decoration: none;
-font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background: #fff;
+  text-decoration: none;
+  font-style: normal;
 }
 
 .link:hover,
 .link:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 .address-text:hover,
 .address-text:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 .header-title {
-display: flex;
-padding: 0 15px;
-width: 1158px;
-border-bottom: 1px solid #e7e9fc;
+  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  margin: 0;
+  padding: 0 15px;
+  max-width: 1158px;
+  grid-template-columns: auto 1fr auto;
+}
+.header-title > .address-list {
+  margin: 0;
 }
