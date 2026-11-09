@@ -7,7 +7,13 @@ color: #2e2f42;
 line-height: 1.11111;
 letter-spacing: 0.02em;
 }
-
+.team-wrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0 15px;
+background: #f4f4fd;
+}
 .titl-name{
 font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -18,8 +24,7 @@ text-align: center;
 color: #2e2f42;
 }
 .post {
-background: #f4f4fd;
-
+padding: 120px 0;
 }
 
 .text-post {
@@ -33,4 +38,36 @@ color: #434455;
 }
 .people {
    background-color: #ffffff; 
+}
+/*
+.image-grid {
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 24px; 
+  max-width: 1158px; 
+  margin: 0 auto;
+}
+
+.image-grid img {
+  display: block; 
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+}
+  */
+.image-container {
+display: grid;
+align-items: center;
+width: 100%;
+flex-wrap: wrap;
+justify-content: center;
+gap: 24px;
+margin: 0 auto; 
+}
+
+.image-container img {
+   display: block;
+  width: calc((100%-72px)/4);
+  height: auto;
+  object-fit: cover; 
 }

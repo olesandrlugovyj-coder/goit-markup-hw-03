@@ -15,6 +15,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.4;
 color: #2e2f42;
+padding: 120px 0;
 }
 
 .text {
@@ -24,4 +25,8 @@ line-height: 1.5;
 color: #434455;
 text-align: left;
 letter-spacing: 0.02em;
+}
+.text-columns {
+  column-count: 4;
+  column-gap: 24px;
 }

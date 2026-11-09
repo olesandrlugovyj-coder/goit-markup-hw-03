@@ -1,12 +1,31 @@
 .title-port{
+  display: flex;
+  justify-content: center;
+  gap: 72px;
 font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11111;
 letter-spacing: 0.02em;
 color: #2e2f42;
-text-align: center;
 }
+
+.portfolio { }
+
+.image-grid{
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 16px; 
+  max-width: 1158px; 
+  margin: 0 auto;
+}
+.image-grid img {
+  display: block; 
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+}
+
 .card {
 font-family: "Roboto", sans-serif;
 font-weight: 500;

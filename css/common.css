@@ -1,5 +1,6 @@
 body {
 font-family: "Roboto", "Raleway",  sans-serif;
+max-width: 1440px;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.4;
@@ -7,6 +8,52 @@ color: #2e2f42;
 background-color: #fff;
 }
 
-ul {
+.container {
+max-width: 1158px;
+height: auto;
+padding: 0 15px;
+margin: 0 auto;
+outline: 2px solid red;
+outline-offset: -2px;
+}
+/*
+.section-title {
+    max-width: 162px;
+    margin: 0 auto 72px;
+}
+    */
+.img {
+    display: block;
+    max-width: 100% ;
+    height: auto;
+}
+ul, ol{
+    margin: 0;
+    padding: 0;
     list-style: none;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5,
+h6,
+p {
+    margin: 0;
+}
+.sr-only{
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap;
+border: 0;
+}
+
+.section {
+    padding: 120px 0;
 }

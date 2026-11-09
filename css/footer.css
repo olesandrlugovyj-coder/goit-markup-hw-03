@@ -20,7 +20,9 @@ letter-spacing: 0.03em;
 color: #4d5ae5;
  text-decoration: none;
 }
-.titl-basement {
+.titl-basement { 
+display: flex;
+text-align: left;  
 background: #2e2f42;
 text-decoration: none;
 
@@ -33,5 +35,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 }
+
+
 
 
