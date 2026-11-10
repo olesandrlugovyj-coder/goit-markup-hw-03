@@ -1,6 +1,7 @@
 .logo {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  margin: 0;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   gap: 0;
@@ -18,7 +19,7 @@
 }
 .nav-list {
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
   gap: 40px;
   margin-left: 76px;
   margin-right: auto;
@@ -37,6 +38,14 @@
   padding: 24px 0;
 }
 
+.nav-link {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
 .list {
   background: #fff;
   color: #2e2f42;
@@ -48,7 +57,7 @@
   display: flex;
   text-align: right;
   align-items: center;
-  justify-content: flex-start;
+
   flex-direction: row;
   padding: 24px 0;
   gap: 40px;
@@ -76,14 +85,25 @@
 }
 .header-title {
   display: flex;
+  /*
   display: grid;
+  *//*
   grid-template-columns: auto 1fr auto;
+  */
   align-items: center;
   margin: 0;
   padding: 0 15px;
-  max-width: 1158px;
+   display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*
   grid-template-columns: auto 1fr auto;
+  */
+justify-content: space-between;
 }
-.header-title > .address-list {
-  margin: 0;
+
+header {
+  border-bottom: 1px solid #e7e9fc;
 }

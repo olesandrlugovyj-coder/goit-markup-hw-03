@@ -11,14 +11,15 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
+    <header id="header">
     <div class="container">
-    <header class="header-title" id="header">
+              <div class="header-title">
         <a href="./index.html" class="logo"><span>WEB</span>STUDIO</a>
-        <nav>
+      <nav>
       <ul class="nav-list">
         <li>
           <a href="#features" class="link">Features</a>
-      </li>
+        </li>
         <li>
           <a href="#team" class="link">Team</a>
         </li>
@@ -35,28 +36,23 @@
         <li>
         <a href="tel:+110001111111" class="address-text">+11 (000) 111-11-11</a>
         </li>
-        </ul>
+      </ul>
       </address>
-      
-    </header>
+              </div>
     </div>
+    </header>
     <main>
       <section class="hero" id="hero">
         <div class="container">
-          <div class="hero-wrapper">
         <h1 class="hero-text">Effective Solutions for Your Business</h1>
         <button class="hero-btn" type="button">Order Service</button>
         </div>
-        </div>
       </section>
-      <div class="container">
-      <section class="title-featur" id="features">
-        <div class="sr-only">
-        <h2 class="title-name">Our Features</h2>
-        </div>
       
-        <div class="text-columns">
-        <ul>
+      <section class="title-featur" id="features">
+        <h2 class="sr-only">Our Features</h2>
+        <div class="container">
+        <ul class="text-columns">
          <li>
           <h3 class="groups">Strategy</h3>
           <p class="text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
@@ -74,33 +70,40 @@
           <p class="text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
         </li>
        </ul>
-       </div>
+        </div>
       </section>
-      </div>
       <section class="post" id="team">
       <div class="container">
         <h2 class="post-title">Our Team</h2>
-            <div class="image-container">
+            <div class="image">
         <ul class="team-wrapper">
           <li class="people">
             <img src="./images/team-1.jpg" alt="Mark Guerrero" width="264"/>
+            <div class="card-name">
             <h3 class="titl-name">Mark Guerrero</h3>
             <p class="text-post">Product Designer</p>
+            </div>
           </li>
           <li class="people">
             <img src="./images/team-2.jpg" alt="Tom Ford" width="264"/>
+            <div class="card-name">
             <h3 class="titl-name">Tom Ford</h3>
             <p class="text-post">Frontend Developer</p>
+            </div>
           </li>
           <li class="people">
             <img src="./images/team-3.jpg" alt="Camila Garcia" width="264"/>
+            <div class="card-name">
             <h3 class="titl-name">Camila Garcia</h3>
             <p class="text-post">Marketing</p>
+            </div>
           </li>
           <li class="people">
             <img src="./images/team-4.jpg" alt="Daniel Wilson" width="264"/>
+            <div class="card-name">
             <h3 class="titl-name">Daniel Wilson</h3>
             <p class="text-post">UI Designer</p>
+            </div>
           </li>
         </ul>
             </div>
@@ -109,40 +112,54 @@
       <section class="portfolio" id="portfolio">
       <div class="container">
         <h2 class="title-port">Our Portfolio</h2>
-        <ul class="image-grid">
-          <li>
+          <div class="image">
+        <ul class="portfolio-wrapper">
+          <li class="postcard">
             <img src="./images/portfolio-1.jpg" alt="Banking App" width="360">
+            <div class="name-card">
             <h3 class="card">Banking App</h3>
             <p class="card-text">App</p>
+            </div>
           </li>
-          <li>
+          <li class="postcard">
             <img src="./images/portfolio-2.jpg" alt="Cashless Payment" width="360">
+            <div class="name-card">
             <h3 class="card">Cashless Payment</h3>
             <p class="card-text">Marketing</p>
+            </div>
           </li>
-          <li>
+          <li class="postcard">
             <img src="./images/portfolio-3.jpg" alt="Meditation App" width="360">
+            <div class="name-card">
             <h3 class="card">Meditation App</h3>
             <p class="card-text">App</p>
+            </div>
           </li>
-          <li>
+          <li class="postcard">
             <img src="./images/portfolio-4.jpg" alt="Taxi Service" width="360">
+            <div class="name-card">
             <h3 class="card">Taxi Service</h3>
             <p class="card-text">Marketing</p>
+            </div>
           </li>
-          <li>
+          <li class="postcard">
             <img src="./images/portfolio-5.jpg" alt="Screen Illustrations" width="360">
+            <div class="name-card">
             <h3 class="card">Screen Illustrations</h3>
             <p class="card-text">Design</p>
+            </div>
           </li>
-          <li>
+          <li class="postcard">
             <img src="./images/portfolio-6.jpg" alt="Online Courses" width="360">
+            <div class="name-card">
             <h3 class="card">Online Courses</h3>
             <p class="card-text">Marketing</p>
+            </div>
           </li>
         </ul>
+          </div>
       </div>
-    </section>
+      </section>
     </main>
     <footer class="titl-basement" id="footer">
       <div class="container">
