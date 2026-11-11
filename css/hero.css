@@ -28,6 +28,7 @@
   font-size: 56px;
   line-height: 1.07143;
   text-align: center;
+  margin: 0 auto;
   background-color: #2e2f42;
   color: #fff;
   width: 496px;
@@ -38,6 +39,7 @@
 .hero {
   display: flex;
   padding: 188px 0;
+  width: auto;
   align-items: center;
   justify-content: center;
   flex-direction: column;

@@ -11,14 +11,12 @@ margin-bottom: 8px;
 }
 
 .title-featur {
-display: flex;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.4;
 color: #2e2f42;
 padding: 120px 0;
-gap: 24px;
 }
 
 
@@ -31,12 +29,10 @@ text-align: left;
 letter-spacing: 0.02em;
 }
 .text-columns {
-  flex-basis: 264px;
-  column-count: 4;
-  colunt-gap: 24px;
+  display: flex;
+  gap: 24px;
+  padding: 0 15px;
 }
-/*
-.title-name {
-
+.text-columns-list {
+width: 264px;
 }
-*/
