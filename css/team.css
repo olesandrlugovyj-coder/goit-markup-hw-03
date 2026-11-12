@@ -12,9 +12,8 @@
   display: flex;
 align-items: flex-start;
 justify-content: flex-start;
-border-radius: 0 0 4px 4px;
+
 gap:24px;
-width: 264px;
 }
 .titl-name {
   font-family: "Roboto", sans-serif;
@@ -41,7 +40,7 @@ width: 264px;
   color: #434455;
 }
 .people {
-  display: block;
+
   border-radius: 0 0 4px 4px;
 width: 264px;
 height: 380px;
@@ -51,7 +50,9 @@ padding: 32px 16px;
 width: 264px;
 height: 120px;
 }
-
+.image {
+    display: block;
+}
 /*
 .image-grid {
   display: grid; 

@@ -1,7 +1,5 @@
 .title-port{
-display: flex;
-justify-content: center;
-gap: 72px;
+  text-align: center;
 font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
@@ -16,7 +14,7 @@ margin-bottom: 72px;
   padding: 120px 0;
 }
 .postcard {
-  
+display: block;
 width: 360px;
 height: 420px;
 }

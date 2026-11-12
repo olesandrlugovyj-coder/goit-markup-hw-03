@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
-  max-width: 1440px;
+  width: 1440px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -9,10 +9,9 @@ body {
 }
 
 .container {
-  width: 1158px;
   height: auto;
   padding: 0 15px;
-  margin: 0 auto;
+  margin: 0 141px;
   outline: 2px solid red;
   outline-offset: -2px;
 }
