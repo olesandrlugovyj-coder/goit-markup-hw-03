@@ -22,8 +22,6 @@
 .nav-list {
   display: flex;
 align-items: center;
-width: 1158px;
-}
 
 
 .link {
@@ -97,6 +95,6 @@ padding: 24px 0;
   color: #0c1572;
 }
 
-header{
+.header{
   border-bottom: 1px solid #e7e9fc;
 }

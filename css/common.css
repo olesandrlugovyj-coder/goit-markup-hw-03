@@ -1,6 +1,10 @@
 body {
+  display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: column;
+padding: 120px 0;
   font-family: "Roboto", "Raleway", sans-serif;
-  width: 1440px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -11,7 +15,7 @@ body {
 .container {
   height: auto;
   padding: 0 15px;
-  margin: 0 141px;
+  width: 1158px;
   outline: 2px solid red;
   outline-offset: -2px;
 }
