@@ -1,10 +1,9 @@
 body {
-  display: flex;
-align-items: center;
-justify-content: flex-start;
+display: flex;
+justify-content: space-between;
 flex-direction: column;
-padding: 120px 0;
-  font-family: "Roboto", "Raleway", sans-serif;
+
+font-family: "Roboto", "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -14,8 +13,7 @@ padding: 120px 0;
 
 .container {
   height: auto;
-  padding: 0 15px;
-  width: 1158px;
+  margin: 0 auto;
   outline: 2px solid red;
   outline-offset: -2px;
 }
@@ -58,6 +56,10 @@ p {
   border: 0;
 }
 
+.wrapper {
+  padding: 0 15px;
+  margin:0 141px;
+}
 .section {
 padding: 120 0;
 }

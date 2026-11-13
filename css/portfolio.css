@@ -9,16 +9,14 @@ color: #2e2f42;
 margin-bottom: 72px;
 }
 
-.portfolio { 
- text-decoration: none;
-  padding: 120px 0;
-}
-.postcard {
+.postcard-items{ 
 display: block;
 }
 
+.portfolio {
+  padding: 120px 0;
 
-
+}
 .card {
 font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -37,25 +35,20 @@ color: #434455;
  }
 
 .name-card {
-display: flex;
-align-items: flex-start;
-justify-content: center;
-flex-direction: column;
-gap: 8px;
 border-bottom: 1px solid #e7e9fc;
 border-left: 1px solid #e7e9fc;
 border-right: 1px solid #e7e9fc;
 padding: 32px 16px;
-
 }
 
-.portfolio-wrapper {
+.portfolio-cover {
 display: flex;
 flex-wrap: wrap;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
 column-gap:24px; 
-row-gap: 48px; 
+row-gap: 48px;
+width: calc ((100% - 48) / 3); 
 
 }
