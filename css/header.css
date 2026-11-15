@@ -1,6 +1,6 @@
 .logo {
-  align-items: center;
-  padding: 24px 0;
+  align-items: start;
+  justify-content: start;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   gap: 0;
@@ -17,15 +17,18 @@
 .logo span {
   color: #4d5ae5;
 }
+/*
 .nav-list {
 display: flex;
 align-items: center;
-justify-content: space-evenly;
 padding: 0 15px;
-
-
+}*/
+/*
+.block {
+  align-items: center;
+  justify-self:center;
 }
-
+  */
 
 .link {
   display: block;
@@ -79,12 +82,12 @@ padding: 24px 0;
 
 }
 
- .header-nav-link {
+ .header-nav-link{
     display: flex;
   align-items: center;
   gap: 40px;
   margin-left: 76px;
-  margin-right: 340px;
+  margin-right: auto;
     padding: 24px 0;
   
 }

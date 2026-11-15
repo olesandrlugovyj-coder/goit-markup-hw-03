@@ -1,4 +1,5 @@
 body {
+max-width: 1440px;
 display: flex;
 justify-content: space-between;
 flex-direction: column;
@@ -14,6 +15,8 @@ font-family: "Roboto", "Raleway", sans-serif;
 .container {
   height: auto;
   margin: 0 auto;
+  max-width: 1158px;
+  padding: 0 15px;
   outline: 2px solid red;
   outline-offset: -2px;
 }
@@ -56,14 +59,19 @@ p {
   border: 0;
 }
 
-.wrapper {
-  padding: 0 15px;
-  margin:0 141px;
-}
 .section {
 padding: 120 0;
 }
 
 .logo {
   display: inline-flex;
+}
+
+.parent-block {
+
+  position: relative;  
+align-items: center;
+justify-content: center;
+flex-wrap: nowrap;
+text-align: center;
 }
