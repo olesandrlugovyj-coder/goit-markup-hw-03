@@ -9,7 +9,7 @@ color: #2e2f42;
 margin-bottom: 72px;
 }
 
-.postcard-items{ 
+.postcard-items .img{ 
 display: block;
 }
 
@@ -49,6 +49,6 @@ justify-content: flex-start;
 flex-direction: row;
 column-gap:24px; 
 row-gap: 48px;
-width: calc ((100% - 48) / 3); 
+width: 1128 px;
 
 }

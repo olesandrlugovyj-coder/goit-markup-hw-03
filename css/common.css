@@ -1,24 +1,22 @@
 body {
-max-width: 1440px;
 display: flex;
 justify-content: space-between;
 flex-direction: column;
-
 font-family: "Roboto", "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
   color: #2e2f42;
   background-color: #fff;
+  padding:0  141px;
 }
 
 .container {
   height: auto;
-  margin: 0 auto;
-  max-width: 1158px;
+  margin: 0 auto ;
+  width: 1158px;
   padding: 0 15px;
-  outline: 2px solid red;
-  outline-offset: -2px;
+
 }
 /*
 .section-title {
@@ -61,12 +59,13 @@ p {
 
 .section {
 padding: 120 0;
+
 }
 
 .logo {
   display: inline-flex;
 }
-
+/*
 .parent-block {
 
   position: relative;  
@@ -75,3 +74,4 @@ justify-content: center;
 flex-wrap: nowrap;
 text-align: center;
 }
+*/
