@@ -39,14 +39,17 @@ gap:24px;
   color: #434455;
 }
 .people {
-border-radius: 0 0 4px 4px;
 width: 264px;
+}
+.item {
+  border-radius: 0 0 4px 4px;
 }
 .card-name {
 padding: 32px 16px;
 }
-.item .img{
+.images .img{
     display: block;
+
 }
 /*
 .image-grid {
