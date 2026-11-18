@@ -42,11 +42,13 @@ gap:24px;
 width: 264px;
 }
 .item {
+  display: block;
   border-radius: 0 0 4px 4px;
 }
 .card-name {
 padding: 32px 16px;
 }
+/*
 .images .img{
     display: block;
 

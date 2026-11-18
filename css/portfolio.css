@@ -8,11 +8,14 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 margin-bottom: 72px;
 }
-
+.postcard-items {
+  display: block;
+}
+/*
 .images .img{ 
 display: block;
 }
-
+*/
 .portfolio {
   padding: 120px 0;
 
